@@ -16,9 +16,9 @@
 #include <asm/pgtable.h>
 #include <asm/atomic.h>
 
-#include "mali_osk.h"
-#include "mali_ukk.h"
-#include "mali_kernel_common.h"
+#include "../common/mali_osk.h"
+#include "../common/mali_ukk.h"
+#include "../common/mali_kernel_common.h"
 
 /**
  * @file mali_osk_specific.c

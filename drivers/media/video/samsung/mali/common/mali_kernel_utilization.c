@@ -10,7 +10,7 @@
 
 #include "mali_kernel_utilization.h"
 #include "mali_osk.h"
-#include "mali_platform.h"
+#include "../platform/mali_platform.h"
 
 /* Define how often to calculate and report GPU utilization, in milliseconds */
 #define MALI_GPU_UTILIZATION_TIMEOUT 1000

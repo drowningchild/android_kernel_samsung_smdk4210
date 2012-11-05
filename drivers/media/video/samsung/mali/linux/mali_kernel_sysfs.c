@@ -16,9 +16,9 @@
 
 #include <linux/fs.h>
 #include <linux/device.h>
-#include "mali_kernel_license.h"
+#include "license/gpl/mali_kernel_license.h"
 #include "mali_kernel_linux.h"
-#include "mali_ukk.h"
+#include "../common/mali_ukk.h"
 
 #if MALI_LICENSE_IS_GPL
 
@@ -26,9 +26,9 @@
 #include <linux/debugfs.h>
 #include <asm/uaccess.h>
 #include <linux/slab.h>
-#include "mali_kernel_subsystem.h"
+#include "../common/mali_kernel_subsystem.h"
 #include "mali_kernel_sysfs.h"
-#include "mali_kernel_profiling.h"
+#include "../common/mali_kernel_profiling.h"
 
 static struct dentry *mali_debugfs_dir = NULL;
 

@@ -12,7 +12,7 @@
  * Platform specific Mali driver functions
  */
 
-#include "mali_osk.h"
+#include "../mali_osk.h"
 
 #if !USING_MALI_PMM
 /* @brief System power up/down cores that can be passed into mali_platform_powerdown/up() */

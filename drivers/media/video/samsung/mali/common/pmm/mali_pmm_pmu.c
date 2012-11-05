@@ -12,9 +12,9 @@
  * @file mali_pmm_pmu.c
  * Mali driver functions for Mali 400 PMU hardware
  */
-#include "mali_kernel_common.h"
-#include "mali_osk.h"
-#include "mali_platform.h"
+#include "../mali_kernel_common.h"
+#include "../mali_osk.h"
+#include "../../platform/mali_platform.h"
 
 #if USING_MALI_PMU
 #if USING_MALI_PMM

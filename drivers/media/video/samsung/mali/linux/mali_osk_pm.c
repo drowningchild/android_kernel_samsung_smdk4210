@@ -21,12 +21,12 @@
 
 #include <linux/platform_device.h>
 
-#include "mali_platform.h"
-#include "mali_osk.h"
-#include "mali_uk_types.h"
-#include "mali_pmm.h"
-#include "mali_kernel_common.h"
-#include "mali_kernel_license.h"
+#include "../platform/mali_platform.h"
+#include "../common/mali_osk.h"
+#include "../common/mali_uk_types.h"
+#include "../common/pmm/mali_pmm.h"
+#include "../common/mali_kernel_common.h"
+#include "license/gpl/mali_kernel_license.h"
 #include "mali_linux_pm.h"
 #include "mali_linux_pm_testsuite.h"
 

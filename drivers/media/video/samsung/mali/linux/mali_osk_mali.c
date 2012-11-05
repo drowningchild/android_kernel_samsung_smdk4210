@@ -15,12 +15,12 @@
 #include <linux/kernel.h>
 #include <asm/uaccess.h>
 
-#include "mali_kernel_common.h" /* MALI_xxx macros */
-#include "mali_osk.h"           /* kernel side OS functions */
-#include "mali_uk_types.h"
+#include "../common/mali_kernel_common.h" /* MALI_xxx macros */
+#include "../common/mali_osk.h"           /* kernel side OS functions */
+#include "../common/mali_uk_types.h"
 #include "mali_kernel_linux.h"  /* exports initialize/terminate_kernel_device() definition of mali_osk_low_level_mem_init() and term */
 #include <mach/irqs.h>
-#include "arch/config.h"        /* contains the configuration of the arch we are compiling for */
+#include "../arch/config.h"       /* contains the configuration of the arch we are compiling for */
 
 /* is called from mali_kernel_constructor in common code */
 _mali_osk_errcode_t _mali_osk_init( void )

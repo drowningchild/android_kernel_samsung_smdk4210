@@ -21,7 +21,7 @@
  * it is up to the includee to ensure certain typedefs (e.g. u32) are already
  * defined when #including this.
  */
-#include "regs/mali_200_regs.h"
+#include "../regs/mali_200_regs.h"
 
 #ifdef __cplusplus
 extern "C"

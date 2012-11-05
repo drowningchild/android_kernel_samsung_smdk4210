@@ -13,13 +13,13 @@
  * Platform specific Mali driver functions for a default platform
  */
 #include <linux/version.h>
-#include "mali_kernel_common.h"
-#include "mali_osk.h"
-#include "mali_platform.h"
-#include "mali_linux_pm.h"
+#include "../../common/mali_kernel_common.h"
+#include "../../common/mali_osk.h"
+#include "../mali_platform.h"
+#include "../../linux/mali_linux_pm.h"
 
 #if USING_MALI_PMM
-#include "mali_pmm.h"
+#include "../../common/pmm/mali_pmm.h"
 #endif
 
 #include <linux/clk.h>

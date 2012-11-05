@@ -16,7 +16,7 @@
 #include "mali_kernel_pp.h"
 #include "mali_kernel_subsystem.h"
 #include "mali_kernel_core.h"
-#include "regs/mali_200_regs.h"
+#include "../regs/mali_200_regs.h"
 #include "mali_kernel_rendercore.h"
 #if MALI_TIMELINE_PROFILING_ENABLED
 #include "mali_kernel_profiling.h"

@@ -16,13 +16,13 @@
 #include <linux/version.h>
 #include <linux/sched.h>
 #include <linux/module.h>
-#include "mali_osk.h"
-#include "mali_kernel_common.h"
-#include "mali_platform.h"
+#include "../common/mali_osk.h"
+#include "../common/mali_kernel_common.h"
+#include "../platform/mali_platform.h"
 #include "mali_linux_pm.h"
 #include "mali_device_pause_resume.h"
-#include "mali_pmm.h"
-#include "mali_kernel_license.h"
+#include "../common/pmm/mali_pmm.h"
+#include "license/gpl/mali_kernel_license.h"
 #ifdef CONFIG_PM
 #if MALI_LICENSE_IS_GPL
 

@@ -14,7 +14,7 @@
 #include "mali_kernel_core.h"
 #include "mali_kernel_pp.h"
 #include "mali_kernel_subsystem.h"
-#include "regs/mali_200_regs.h"
+#include "../regs/mali_200_regs.h"
 #include "mali_kernel_rendercore.h"
 #include "mali_kernel_l2_cache.h"
 

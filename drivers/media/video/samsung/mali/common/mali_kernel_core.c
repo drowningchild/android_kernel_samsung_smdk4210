@@ -22,11 +22,11 @@
 #include "mali_kernel_l2_cache.h"
 #endif
 #if USING_MALI_PMM
-#include "mali_pmm.h"
+#include "pmm/mali_pmm.h"
 #endif /* USING_MALI_PMM */
 
 /* platform specific set up */
-#include "mali_platform.h"
+#include "../platform/mali_platform.h"
 
 /* Initialized when this subsystem is initialized. This is determined by the
  * position in subsystems[], and so the value used to initialize this is

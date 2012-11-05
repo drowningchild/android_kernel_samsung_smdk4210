@@ -19,16 +19,16 @@
 #include <linux/device.h>
 
 /* the mali kernel subsystem types */
-#include "mali_kernel_subsystem.h"
+#include "../common/mali_kernel_subsystem.h"
 
 /* A memory subsystem always exists, so no need to conditionally include it */
-#include "mali_kernel_common.h"
-#include "mali_kernel_session_manager.h"
-#include "mali_kernel_core.h"
+#include "../common/mali_kernel_common.h"
+#include "../common/mali_kernel_session_manager.h"
+#include "../common/mali_kernel_core.h"
 
-#include "mali_osk.h"
+#include "../common/mali_osk.h"
 #include "mali_kernel_linux.h"
-#include "mali_ukk.h"
+#include "../common/mali_ukk.h"
 #include "mali_kernel_ioctl.h"
 #include "mali_ukk_wrappers.h"
 #include "mali_kernel_pm.h"
@@ -37,9 +37,9 @@
 #include "mali_kernel_sysfs.h"
 
 /* */
-#include "mali_kernel_license.h"
+#include "license/gpl/mali_kernel_license.h"
 
-#include "mali_platform.h"
+#include "../platform/mali_platform.h"
 
 /* from the __malidrv_build_info.c file that is generated during build */
 extern const char *__malidrv_build_info(void);

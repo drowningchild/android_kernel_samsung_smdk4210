@@ -13,9 +13,9 @@
  * Platform specific Mali driver dvfs functions
  */
 
-#include "mali_kernel_common.h"
-#include "mali_osk.h"
-#include "mali_platform.h"
+#include "../../common/mali_kernel_common.h"
+#include "../../common/mali_osk.h"
+#include "../mali_platform.h"
 
 #include <linux/clk.h>
 #include <linux/err.h>
@@ -30,7 +30,7 @@
 #define EXYNOS4_ASV_ENABLED
 #endif
 
-#include "mali_device_pause_resume.h"
+#include "../../linux/mali_device_pause_resume.h"
 #include <linux/workqueue.h>
 
 #define MALI_DVFS_WATING 10 // msec

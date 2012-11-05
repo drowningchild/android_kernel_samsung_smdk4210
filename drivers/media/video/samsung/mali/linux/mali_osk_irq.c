@@ -16,10 +16,10 @@
 #include <linux/slab.h>	/* For memory allocation */
 #include <linux/workqueue.h>
 
-#include "mali_osk.h"
-#include "mali_kernel_core.h"
-#include "mali_kernel_common.h"
-#include "mali_kernel_license.h"
+#include "../common/mali_osk.h"
+#include "../common/mali_kernel_core.h"
+#include "../common/mali_kernel_common.h"
+#include "license/gpl/mali_kernel_license.h"
 #include "linux/interrupt.h"
 
 typedef struct _mali_osk_irq_t_struct

@@ -10,16 +10,16 @@
 
 #if USING_MALI_PMM
 
-#include "mali_ukk.h"
-#include "mali_kernel_common.h"
-#include "mali_kernel_subsystem.h"
+#include "../mali_ukk.h"
+#include "../mali_kernel_common.h"
+#include "../mali_kernel_subsystem.h"
 
 #include "mali_pmm.h"
 #include "mali_pmm_state.h"
 #include "mali_pmm_system.h"
 
-#include "mali_kernel_core.h"
-#include "mali_platform.h"
+#include "../mali_kernel_core.h"
+#include "../../platform/mali_platform.h"
 
 #define SIZEOF_CORES_LIST 6
 

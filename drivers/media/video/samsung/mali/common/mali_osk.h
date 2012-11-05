@@ -1702,7 +1702,7 @@ extern u32 counter_table[];
 }
 #endif
 
-#include "mali_osk_specific.h"           /* include any per-os specifics */
+#include "../linux/mali_osk_specific.h"           /* include any per-os specifics */
 
 /* Check standard inlines */
 #ifndef MALI_STATIC_INLINE

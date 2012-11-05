@@ -16,8 +16,8 @@
 #ifndef __MALI_UKK_WRAPPERS_H__
 #define __MALI_UKK_WRAPPERS_H__
 
-#include "mali_uk_types.h"
-#include "mali_osk.h"
+#include "../common/mali_uk_types.h"
+#include "../common/mali_osk.h"
 
 #ifdef __cplusplus
 extern "C"

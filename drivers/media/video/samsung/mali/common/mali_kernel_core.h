@@ -15,8 +15,8 @@
 
 #if USING_MALI_PMM
 #include "mali_ukk.h"
-#include "mali_pmm.h"
-#include "mali_pmm_system.h"
+#include "pmm/mali_pmm.h"
+#include "pmm/mali_pmm_system.h"
 #endif
 
 _mali_osk_errcode_t mali_kernel_constructor( void );

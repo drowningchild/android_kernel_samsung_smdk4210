@@ -17,8 +17,8 @@
 #define __MALI_PMM_H__
 
 /* For mali_pmm_message_data and MALI_PMM_EVENT_UK_* defines */
-#include "mali_uk_types.h"
-#include "mali_platform.h"
+#include "../mali_uk_types.h"
+#include "../../platform/mali_platform.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -22,9 +22,9 @@
 #include <linux/mm.h>
 #include <linux/dma-mapping.h>
 
-#include "mali_osk.h"
-#include "mali_ukk.h" /* required to hook in _mali_ukk_mem_mmap handling */
-#include "mali_kernel_common.h"
+#include "../common/mali_osk.h"
+#include "../common/mali_ukk.h" /* required to hook in _mali_ukk_mem_mmap handling */
+#include "../common/mali_kernel_common.h"
 #include "mali_kernel_linux.h"
 
 static void mali_kernel_memory_vma_open(struct vm_area_struct * vma);

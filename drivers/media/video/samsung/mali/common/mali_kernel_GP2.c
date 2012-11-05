@@ -13,7 +13,7 @@
 #include "mali_kernel_common.h"
 #include "mali_kernel_core.h"
 #include "mali_kernel_subsystem.h"
-#include "regs/mali_gp_regs.h"
+#include "../regs/mali_gp_regs.h"
 #include "mali_kernel_rendercore.h"
 #include "mali_osk.h"
 #include "mali_osk_list.h"

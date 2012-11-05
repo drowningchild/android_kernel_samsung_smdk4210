@@ -16,7 +16,7 @@
 #ifndef __MALI_PLATFORM_H__
 #define __MALI_PLATFORM_H__
 
-#include "mali_osk.h"
+#include "../common/mali_osk.h"
 
 #ifdef CONFIG_CPU_EXYNOS4210
 #define MALI_DVFS_STEPS 3

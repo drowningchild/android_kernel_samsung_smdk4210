@@ -10,7 +10,7 @@
 
 #include "mali_kernel_subsystem.h"
 #include "mali_kernel_mem.h"
-#include "mali_kernel_ioctl.h"
+#include "../linux/mali_kernel_ioctl.h"
 #include "mali_kernel_descriptor_mapping.h"
 #include "mali_kernel_mem_mmu.h"
 #include "mali_kernel_memory_engine.h"
@@ -25,7 +25,7 @@
 #endif
 
 #if MALI_USE_UNIFIED_MEMORY_PROVIDER != 0
-#include "ump_kernel_interface.h"
+#include "../../ump/include/ump_kernel_interface.h"
 #endif
 
 /* kernel side OS functions and user-kernel interface */

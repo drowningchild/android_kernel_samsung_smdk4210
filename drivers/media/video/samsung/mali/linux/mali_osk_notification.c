@@ -13,10 +13,10 @@
  * Implementation of the OS abstraction layer for the kernel device driver
  */
 
-#include "mali_osk.h"
-#include "mali_kernel_common.h"
-#include "mali_pmm.h"
-#include "mali_pmm_state.h"
+#include "../common/mali_osk.h"
+#include "../common/mali_kernel_common.h"
+#include "../common/pmm/mali_pmm.h"
+#include "../common/pmm/mali_pmm_state.h"
 
 /* needed to detect kernel version specific code */
 #include <linux/version.h>

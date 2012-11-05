@@ -13,7 +13,7 @@
  * Implementation of the OS abstraction layer for the kernel device driver
  */
 
-#include "mali_osk.h"
+#include "../common/mali_osk.h"
 #include <linux/jiffies.h>
 #include <linux/time.h>
 #include <asm/delay.h>

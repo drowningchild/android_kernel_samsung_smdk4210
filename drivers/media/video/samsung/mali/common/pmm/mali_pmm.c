@@ -15,17 +15,17 @@
 
 #if USING_MALI_PMM
 
-#include "mali_ukk.h"
-#include "mali_kernel_common.h"
-#include "mali_kernel_subsystem.h"
+#include "../mali_ukk.h"
+#include "../mali_kernel_common.h"
+#include "../mali_kernel_subsystem.h"
 
 #include "mali_pmm.h"
 #include "mali_pmm_system.h"
 #include "mali_pmm_state.h"
 #include "mali_pmm_policy.h"
 #include "mali_pmm_pmu.h"
-#include "mali_platform.h"
-#include "mali_kernel_pm.h"
+#include "../../platform/mali_platform.h"
+#include "../../linux/mali_kernel_pm.h"
 
 /* Internal PMM subsystem state */
 static _mali_pmm_internal_state_t *pmm_state = NULL;

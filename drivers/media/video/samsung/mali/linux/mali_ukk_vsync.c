@@ -10,10 +10,10 @@
 #include <linux/fs.h>       /* file system operations */
 #include <asm/uaccess.h>    /* user space access */
 
-#include "mali_ukk.h"
-#include "mali_osk.h"
-#include "mali_kernel_common.h"
-#include "mali_kernel_session_manager.h"
+#include "../common/mali_ukk.h"
+#include "../common/mali_osk.h"
+#include "../common/mali_kernel_common.h"
+#include "../common/mali_kernel_session_manager.h"
 #include "mali_ukk_wrappers.h"
 
 

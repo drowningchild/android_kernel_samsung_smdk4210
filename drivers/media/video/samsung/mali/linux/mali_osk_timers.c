@@ -15,8 +15,8 @@
 
 #include <linux/timer.h>
 #include <linux/slab.h>
-#include "mali_osk.h"
-#include "mali_kernel_common.h"
+#include "../common/mali_osk.h"
+#include "../common/mali_kernel_common.h"
 
 struct _mali_osk_timer_t_struct
 {

@@ -16,7 +16,7 @@
 #ifndef __MALI_OSK_MALI_H__
 #define __MALI_OSK_MALI_H__
 
-#include <mali_osk.h>
+#include "mali_osk.h"
 
 #ifdef __cplusplus
 extern "C"

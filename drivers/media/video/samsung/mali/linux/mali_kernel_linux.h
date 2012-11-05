@@ -17,8 +17,8 @@ extern "C"
 #endif
 
 #include <linux/cdev.h>     /* character device definitions */
-#include "mali_kernel_license.h"
-#include "mali_osk.h"
+#include "license/gpl/mali_kernel_license.h"
+#include "../common/mali_osk.h"
 
 struct mali_dev
 {

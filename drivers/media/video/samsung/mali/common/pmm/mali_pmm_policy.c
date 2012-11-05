@@ -16,8 +16,8 @@
 
 #if USING_MALI_PMM
 
-#include "mali_ukk.h"
-#include "mali_kernel_common.h"
+#include "../mali_ukk.h"
+#include "../mali_kernel_common.h"
 
 #include "mali_pmm.h"
 #include "mali_pmm_system.h"
